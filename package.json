@@ -1,0 +1,21 @@
+{
+  "name": "student-info-system",
+  "version": "1.0.0",
+  "description": "Node.js Student Information Management System (MMCA314D Assignment 1 Q3)",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "debug": "node inspect server.js",
+    "repl": "node demos/repl.js",
+    "demo": "node demos",
+    "test": "node test/store.test.js"
+  },
+  "keywords": ["nodejs", "student", "crud"],
+  "author": "Shalini Bharathidasan",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  }
+}
