@@ -88,4 +88,5 @@ student-info-system/
 6. Add demos: buffers, streams, file system, string decoder, query string
 7. Add demos: assert, callbacks and events, REPL, debugger, and demo runner
 8. Add store tests using the assert module (npm test)
-9. Add README with project structure and concept mapping
+9. Fix REPL .count when input closes early
+10. Add README with project structure and concept mapping
