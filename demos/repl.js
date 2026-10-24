@@ -18,7 +18,7 @@ store.init().then(() => {
     async action() {
       const all = await store.getAll()
       console.log(`${all.length} students`)
-      this.displayPrompt()
+      if (!this.closed) this.displayPrompt()
     },
   })
 })
